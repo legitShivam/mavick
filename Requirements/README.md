@@ -1,0 +1,1 @@
+>>> run requirements.bat to install all the required modules or use the virtual environment named as 'venv'

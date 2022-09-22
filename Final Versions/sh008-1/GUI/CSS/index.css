@@ -1,0 +1,95 @@
+/* FONTS */
+@font-face {
+  font-family: VarelaRound;
+  src: url("../Resources/Fonts/VarelaRound-Regular.ttf");
+}
+
+/* Designing Scrolbar for the GUI */
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(130, 130, 130, );
+  box-shadow: inset 0px 0px 5px grey; 
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(130, 130, 130); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #636363; 
+}
+
+body {
+  background-color: rgb(5, 1, 23);
+  position: fixed; 
+  overflow-y: scroll;
+  width: 100%;
+  overflow: hidden;
+}
+#ai-visualization{
+  margin: 30px
+}
+
+.GUI {
+  height: 100%;
+}
+.ai-status {
+  margin-top: 5px;
+  color: white;
+  width: 50%;
+  font-family: VarelaRound;
+  font-style: bold;
+}
+#ai-status {
+  padding: 5px;
+}
+
+.result {
+  margin-top: 30px;
+  color: white;
+  width: 70%;
+  background-color: rgb(14, 0, 43);
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 2px 20px rgb(2, 0, 3);
+}
+#result {
+  color: white;
+  padding: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-height: 240px;
+}
+.result:hover {
+  width: 71%;
+}
+#result:hover {
+  max-height: 245px;
+}
+
+/* This CSS will be applied when the app is in Normal mode */
+
+@media (max-width: 800px) {
+
+#ai-visualization{
+  margin: 5px
+}
+#result {
+  max-height: 190px;
+}
+#result:hover {
+  max-height: 195px;
+}
+}
