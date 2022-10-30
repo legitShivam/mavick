@@ -41,3 +41,4 @@ Python backend with the help of EEL exposes functions to JS frontend by which th
 - Refactoring the name from Jarvis to Mavick
 - Implementing NLP
 - Refactoring codebase
+- Add a release
